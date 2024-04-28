@@ -1,5 +1,5 @@
 module "example" {
-  source= "git@github.com:infrastructure-blocks/tf-module-template"
+  source = "git@github.com:infrastructure-blocks/tf-module-template"
 
   example_input = "example"
 }

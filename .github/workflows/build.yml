@@ -1,0 +1,19 @@
+name: Build
+
+on:
+  push:
+    # This turns off running for tags
+    branches:
+      - "**"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint
+        run: make lint
