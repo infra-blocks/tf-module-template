@@ -1,3 +1,3 @@
 locals {
-  output = upper(var.example_input)
+  example_output = upper(var.example_input)
 }
