@@ -11,3 +11,4 @@ Follow these steps after instantiating the template:
 - Replace the `Trigger Update From Template` status badge for the `Update From Template` status badge.
 - Describe the package and its usage in this readme.
 - Update the package code, the module [examples](./examples) and the [tests](./tests)
+- Prepare the [changelog](CHANGELOG.md) for the first version of the module that will be released.
