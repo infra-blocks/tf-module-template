@@ -1,7 +1,7 @@
 # tf-module-template
-[![Build](https://github.com/infrastructure-blocks/tf-module-template/actions/workflows/build.yml/badge.svg)](https://github.com/infrastructure-blocks/tf-module-template/actions/workflows/build.yml)
-[![Release](https://github.com/infrastructure-blocks/tf-module-template/actions/workflows/release.yml/badge.svg)](https://github.com/infrastructure-blocks/tf-module-template/actions/workflows/release.yml)
-[![Trigger Update From Template](https://github.com/infrastructure-blocks/tf-module-template/actions/workflows/trigger-update-from-template.yml/badge.svg)](https://github.com/infrastructure-blocks/tf-module-template/actions/workflows/trigger-update-from-template.yml)
+[![Build](https://github.com/infra-blocks/tf-module-template/actions/workflows/build.yml/badge.svg)](https://github.com/infra-blocks/tf-module-template/actions/workflows/build.yml)
+[![Release](https://github.com/infra-blocks/tf-module-template/actions/workflows/release.yml/badge.svg)](https://github.com/infra-blocks/tf-module-template/actions/workflows/release.yml)
+[![Trigger Update From Template](https://github.com/infra-blocks/tf-module-template/actions/workflows/trigger-update-from-template.yml/badge.svg)](https://github.com/infra-blocks/tf-module-template/actions/workflows/trigger-update-from-template.yml)
 
 This repository is a template to instantiate Terraform/OpenTofu module repositories.
 

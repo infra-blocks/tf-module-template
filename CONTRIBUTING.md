@@ -25,5 +25,5 @@ Refer to terraform's documentation on how to test terraform code. This project e
 
 ### Release Flow
 
-This project's release cycle is fully automated. It leverages the [git-tag-from-semver-increment-workflow](https://github.com/infrastructure-blocks/git-tag-from-semver-increment-workflow)
+This project's release cycle is fully automated. It leverages the [git-tag-from-semver-increment-workflow](https://github.com/infra-blocks/git-tag-from-semver-increment-workflow)
 to accomplish this. Refer to its documentation for usage information.
