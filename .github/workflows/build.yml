@@ -14,15 +14,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
-      - id: terraform-version
-        name: Extract terraform version
-        run: |
-          echo "terraform-version=$(cat .terraform-version)" >> ${GITHUB_OUTPUT}
-      - uses: hashicorp/setup-terraform@v3
-        with:
-          terraform_version: ${{ steps.terraform-version.outputs.terraform-version }}
-      - name: Lint
-        run: make lint
-      - name: Test
-        run: make test
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
+      - run: mise run lint
+      - run: mise run test
