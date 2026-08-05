@@ -4,24 +4,23 @@
 
 ### Setup
 
-This project depends on the following tools:
-- [tfenv](https://github.com/tfutils/tfenv) to manage its terraform version.
-- [make](https://www.gnu.org/software/make/) to automate various build scripts.
+This project depends on [mise-en-place](https://mise.jdx.dev/) to manage its
+tools and scripts.
 
-Install those, then run the following:
+Install `mise`, then run the following:
 ```shell
-tfenv install # Will install the version in `.terraform-version` file
+mise install
 ```
 
 ### Linting
 
-The project enforces linting based on `terraform fmt`. Lint the code by running `make lint`.
+The project enforces linting based on `terraform fmt`. Lint the code by running `mise run lint`.
 
 
 ### Testing
 
 Refer to terraform's documentation on how to test terraform code. This project exposes a script for testing:
-`make test`.
+`mise run test`.
 
 ### Release Flow
 
